@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My first web site</title>
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<form action="#" method="GET">
+		<div>Name:
+			<input type="text" placeholder="Your name">
+		</div>
+		<div>Password:
+			<input type="password" placeholder="Your password">
+		</div>
+		<div>Phone:
+			<input type="tel" placeholder="Your phone">
+		</div>
+		<div>Gander:
+			<br />
+			<label>
+				Male<input checked type="radio" name="gender" value="male">
+			</label>
+			<br />
+			<label>
+				Female<input type="radio" name="gender" value="female">
+			</label>
+		</div>
+		<div>
+			Things:
+			<br />
+			<p><label><input type="checkbox" value="car">Car</label></p>
+			<p><label><input type="checkbox" value="flat">Flat</label></p>
+			<p><label><input type="checkbox" value="computer">Computer</label></p>
+			<p><label><input type="checkbox" value="phone">Phone</label></p>
+		</div>
+		<div>
+			Additional information:
+			<br />
+			<textarea name="msg" id="addInf" cols="30" rows="10"></textarea>
+		</div>
+		<div>
+			Add photo:
+			<br />
+			<input type="file" name="photo-file">
+		</div>
+		<div>
+			Favorite color:
+			<br />
+			<select name="colors" id="colors">
+				<option value="red">Red</option>
+				<option value="yellow" selected>Yellow</option>
+				<option value="green">Green</option>
+				<option value="blue">Blue</option>
+			</select>
+		</div>
+		<div>
+			Act:
+			<br />
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+		</div>
+	</form>
+</body>
+
+</html>
